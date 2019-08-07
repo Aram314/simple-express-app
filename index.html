@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h2>Form</h2>
+	<form action="/form" method="post">
+		<div>
+			<label>
+				Username: 
+				<input type="text" name='username'>
+			</label>
+		</div>
+		<br>
+		<div>
+			<label>
+				Password: 
+				<input type="password" name='password'>
+			</label>
+		</div>
+		<br>
+
+		<div>
+			Gender:
+			<label>
+				Male: <input type="radio" name='gender' value='male'>
+			</label>
+			
+			<label>
+				Female: <input type="radio" name='gender' value='female'>
+			</label>
+		</div>
+		<br>
+		<div>
+			<label>
+				<input type="hidden" name='agree' value=''>
+				Agree with: <input type="checkbox" name='agree' value='true'>
+			</label>
+		</div>
+		<br>
+		<div>
+			<button type='Submit'>Submit</button>
+		</div>
+	</form>
+</body>
+</html>
